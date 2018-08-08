@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Log;
 
 // Config file required for Shopify API Authentacation:
 require_once(config_path('.shopify.config.php'));
+// Config file for FTP
 require_once(config_path('.sps.commerce.php'));
 
 class ShopifyOrders extends Command
